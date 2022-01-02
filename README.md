@@ -63,6 +63,60 @@
 
 [To support WiFi USB Adapter(s) with new vid/pid(s) which have rtl8821au or rtl8811au chipset.](https://github.com/ivanovborislav/document/blob/main/HowTo_support_more_VidPids.pdf)
 
+## Tested Linux Distros and Tools
+
+Successful tested injection `aireplay-ng -9 <interface>`, deauthentication `aireplay-ng -0 1 -a <bssid> <interface>`.
+
+Successful hcxdumptool driver test `hcxdumptool -i <interface> --check_driver` and capture packets `hcxdumptool -i <interface> -o test.pcapng --filterlist_ap=targets.lst --filtermode=2 --enable_status=15` `(hcxdumptool -i <interface> -o test.pcapng --filterlist=targets.lst --filtermode=2 --enable_status=15)`.
+
+Connecting to AP with WPA3 (WPA3-SAE) authentication method (IMPORTANT: Network Manager, is not support WPA3 on this driver. Connecting with wpa_supplicant).
+
+Start WPA3 (WPA3-SAE) SoftAP.
+
+TX power control tested with SoftAP mode and OpenWrt firmware (OpenWrt 21.02.0 r16279-5cc0535800, Channel Analysis Feature).
+
+- Kali Linux 2021.3a (kernel 5.14)
+  * Aircrack-ng 1.6
+  * hcxdumptool 5.2.2
+  * wpa_supplicant v2.10-devel-hostap_2_9-2433-g8d881d942
+
+- Kali Linux 2020.3 (kernel 5.9)
+  * wpa_supplicant v2.10-devel-hostap_2_9-2379-g4775a5f82
+  * hostapd v2.10-devel-hostap_2_9-2379-g4775a5f82
+  * Aircrack-ng 1.6
+  * hcxdumptool 6.1.4
+
+- Kali Linux 2019.1a (kernel 4.19)
+  * Aircrack-ng 1.5.2
+  * hcxdumptool 5.1.7
+  * wpa_supplicant v2.10-devel-hostap_2_9-2433-g8d881d942
+
+- Ubuntu 21.10 (kernel 5.15)
+  * wpa_supplicant v2.10-devel-hostap_2_9-2398-g8a54c252a
+  * hostapd v2.10-devel-hostap_2_9-2398-g8a54c252a
+  * Aircrack-ng 1.6
+  * hcxdumptool 6.2.4
+
+- Ubuntu 21.10 (kernel 5.13)
+  * Aircrack-ng 1.6
+  * hcxdumptool 6.2.0
+  * hostapd v2.10-devel-hostap_2_9-2398-g8a54c252a
+  * wpa_supplicant v2.10-devel-hostap_2_9-2398-g8a54c252a
+
+- Ubuntu 12.04 (kernel 3.4)
+  * Aircrack-ng 1.5.2
+  * hcxdumptool 4.2.1
+
+- Ubuntu 11.10 (kernel 3.0)
+  * Aircrack-ng 1.5.2
+  * hcxdumptool 4.2.1
+
+- Linux Mint 20.2 MATE (kernel 5.4)
+  * wpa_supplicant v2.10-devel-hostap_2_9-2486-gbb6fa62b3
+  * hostapd v2.10-devel-hostap_2_9-2486-gbb6fa62b3
+  * hcxdumptool 6.1.6
+  * Aircrack-ng 1.6
+
 ## HOW TO
 
 ### Install
