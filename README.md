@@ -27,6 +27,42 @@
 - Security:
   * WEP 64/128-bit, WPA, WPA2, WPA3, and 802.1x
 
+## Supported adapters
+
+- Realtek RTL8811AU Wireless LAN 802.11ac USB 2.0 Network Adapter
+- Realtek RTL8821AU Wireless LAN 802.11ac USB 2.0 Network Adapter
+- Edimax EW-7811UTC
+- Edimax EW-7811UAC
+- Edimax EW-7811DAC
+- Edimax EW-7811USC
+- Edimax EW-7611UCB
+- I-O DATA WN-AC433UA Wireless LAN Adapter
+- D-Link DWA-171 rev A1 Wireless AC Dual Band Adapter
+- D-Link DWA-172 rev A1 Wireless AC600 Dual Band High-Gain USB Adapter
+- Hawking USB WLS 11AC Adapter
+- ELECOM WDC-433SU2M2  Wireless Adapter
+- ELECOM WDB-433SU2M2  Wireless Adapter
+- TRENDnet AC600 Dual Band Wireless USB Adapter
+- TP-LINK Archer T2U V3
+- TP-LINK Archer T2U Nano V1
+- TP-LINK Archer T2U Plus V1
+- I-O DATA Realtek Wireless LAN USB 2.0 5G Only Network Adapter
+- Planex GW-450S
+- Sitecom WiFi High Gain USB Adapter AC600
+- ELECOM WDC-433DU2H 11ac Wireless Adapter
+- Abocom 802.11ac Wireless LAN Card
+- I-O DATA WN-AC433UM Wireless LAN Adapter
+- I-O DATA WHG-AC433UM Wireless LAN Adapter
+- AirTies Air2520 Wireless USB Adapter
+- AirTies Air2525 Wireless USB Adapter
+- BUFFALO WI-U2-433DM Wireless LAN Adapter
+- BUFFALO WI-U2-433DHP Wireless Lan Adapter
+- BUFFALO WLP-U2-433DHP Wireless Lan Adapter
+- Netgear A6100
+- Obihai OBiWiFi
+
+[To support WiFi USB Adapter(s) with new vid/pid(s) which have rtl8821au or rtl8811au chipset.](https://github.com/ivanovborislav/document/blob/main/HowTo_support_more_VidPids.pdf)
+
 ## HOW TO
 
 ### Install
