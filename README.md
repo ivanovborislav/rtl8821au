@@ -117,6 +117,19 @@ TX power control tested with SoftAP mode and OpenWrt firmware (OpenWrt 21.02.0 r
   * hcxdumptool 6.1.6
   * Aircrack-ng 1.6
 
+- Ubuntu 12.10 (kernel 3.5)
+  * Aircrack-ng 1.5.2
+  * hcxdumptool 4.2.1
+
+- Ubuntu 13.04 (kernel 3.8)
+  * Aircrack-ng 1.5.2
+  * hcxdumptool 5.1.4
+
+- Ubuntu 21.04 (kernel 5.11)
+  * Aircrack-ng 1.6
+  * hcxdumptool 6.1.6
+  * wpa_supplicant v2.10-devel-hostap_2_9-2374-g9ef8491d9
+
 ## HOW TO
 
 ### Install
