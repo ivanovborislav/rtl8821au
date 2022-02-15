@@ -17,6 +17,9 @@
 /* #define CONFIG_DISABLE_ODM */
 
 /* ***** temporarily flag ******* */
+
+#define CONFIG_REGD_SRC_FROM_OS /* default regd source selection */
+
 /*
  * Public  General Config
  */
