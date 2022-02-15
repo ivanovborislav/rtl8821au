@@ -24,6 +24,7 @@
 - Power saving control
 - Driver debug log level control
 - VHT control
+- REGD source selection
 - Security:
   * WEP 64/128-bit, WPA, WPA2, WPA3, and 802.1x
 
@@ -276,6 +277,12 @@ Driver VHT control, rtw_vht_enable=
 0:disable
 1:enable (default)
 2:force auto enable
+```
+
+Driver REGD source selection, rtw_regd_src=
+```
+0:Realtek defined
+1:OS (default, get channel plan from OS)
 ```
 
 ### Connecting with wpa_supplicant
