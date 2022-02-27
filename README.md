@@ -9,6 +9,10 @@
 - Support Kernel: 4.15 - 5.11 (Realtek)
 - Support up to Kernel 5.16
 
+Kernel 5.17-rc5 support
+
+`wget https://raw.githubusercontent.com/ivanovborislav/document/main/patch/rtl8821AU_v5.12.5.2_kernel_5.17-rc5_support.patch`
+
 ##	Specification
 
 - Supported interface modes:
