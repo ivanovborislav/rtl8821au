@@ -208,6 +208,7 @@ TX power control tested with SoftAP mode and OpenWrt firmware (OpenWrt 21.02.0 r
   * hcxdumptool 6.1.6
   * wpa_supplicant v2.10-devel-hostap_2_9-2374-g9ef8491d9
 </details>
+
 ## HOW TO
 
 ### Install
