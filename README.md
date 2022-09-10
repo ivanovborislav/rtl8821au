@@ -9,6 +9,17 @@
 - Support Kernel: 4.15 - 5.11 (Realtek)
 - Support up to Kernel 5.19
 
+Kernel 5.19.X - 6.0.0rc3 patch
+```
+cd rtl8821au
+wget https://raw.githubusercontent.com/ivanovborislav/document/main/patch/rtl8821au_v5.12.5.2_kernel_5.19.2-6.0.0rc3.patch
+patch -p1 < rtl8821au_v5.12.5.2_kernel_5.19.2-6.0.0rc3.patch
+sudo make uninstall
+make clean
+make
+sudo make install
+```
+
 ##	Specification
 
 - Supported interface modes:
