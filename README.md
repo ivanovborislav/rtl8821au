@@ -276,6 +276,13 @@ make
 sudo make install
 ```
 
+or
+
+```
+chmod +x install.sh
+./install.sh -i
+```
+
 Raspberry Pi:
 
 Edit `Makefile`:
