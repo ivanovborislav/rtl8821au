@@ -295,6 +295,22 @@ or
 
 Ln144 - CONFIG_PLATFORM_RPI_ARM64 = `n` to CONFIG_PLATFORM_RPI_ARM64 = `y` for ARM64
 
+### DKMS installation
+```
+sudo git clone "https://github.com/ivanovborislav/rtl8821au.git" /usr/src/rtl8821au-5.12.5.2
+sudo dkms add -m rtl8821au -v 5.12.5.2
+sudo dkms autoinstall
+dkms status
+```
+or
+```
+sudo git clone "https://github.com/ivanovborislav/rtl8821au.git" /usr/src/rtl8821au-5.12.5.2
+sudo dkms add -m rtl8821au -v 5.12.5.2
+sudo dkms build -m rtl8821au -v 5.12.5.2
+sudo dkms install -m rtl8821au -v 5.12.5.2
+dkms status
+```
+
 ### Monitor mode
 
 ```
