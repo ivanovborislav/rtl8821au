@@ -7,17 +7,7 @@
 - v5.12.5.2 (20210708)
 - Based on EDIMAX EW-7811UTC Linux Driver (Version : 1.0.3.4) 2021-09-16
 - Support Kernel: 4.15 - 5.11 (Realtek)
-- Support up to Kernel 6.2
-
-Kernel v6.3rc2 support
-```
-git clone https://github.com/ivanovborislav/rtl8821au.git
-cd rtl8821au
-wget https://raw.githubusercontent.com/ivanovborislav/document/main/patch/20230314-k-v6.3-rc2.patch
-patch -p1 < 20230314-k-v6.3-rc2.patch
-make
-sudo make install
-```
+- Support up to Kernel 6.3
 
 ##	Specification
 
